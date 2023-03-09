@@ -11,28 +11,28 @@
 <body>
     <div class="m-container">
         <div class="output-container">
-            8080808
+            <p id="display">87 + 43</p>
         </div>
         <div class="b-container">
             <div class="input-buttons">
-                <button>1</button>
-                <button>2</button>
-                <button>3</button>
-                <button>4</button>
-                <button>5</button>
-                <button>6</button>
-                <button>7</button>
-                <button>8</button>
-                <button>9</button>
-                <button>0</button>
-                <button>.</button>
+                <button onclick="getElementById('display').innerHTML += '1' ">1</button>
+                <button onclick="getElementById('display').innerHTML += '2' ">2</button>
+                <button onclick="getElementById('display').innerHTML += '3' ">3</button>
+                <button onclick="getElementById('display').innerHTML += '4' ">4</button>
+                <button onclick="getElementById('display').innerHTML += '5' ">5</button>
+                <button onclick="getElementById('display').innerHTML += '6' ">6</button>
+                <button onclick="getElementById('display').innerHTML += '7' ">7</button>
+                <button onclick="getElementById('display').innerHTML += '8' ">8</button>
+                <button onclick="getElementById('display').innerHTML += '9' ">9</button>
+                <button onclick="getElementById('display').innerHTML += '0' ">0</button>
                 <button>CE</button>
+                <button id="calc">=</button>
             </div>
             <div class="operators">
-                <button>÷</button>
-                <button>*</button>
-                <button>-</button>
-                <button>+</button>
+                <button id="operator">÷</button>
+                <button id="operator">*</button>
+                <button id="operator">-</button>
+                <button id="operator">+</button>
             </div>
         </div>
     </div>
