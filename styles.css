@@ -38,6 +38,7 @@ body {
     display: grid;
     grid-template-columns: 3fr 1fr;
     padding: 10px;
+    max-width: 446px;
 }
 
 button {
@@ -67,4 +68,8 @@ button {
 .operators,
 .input-buttons {
     grid-gap: 10px;
+}
+
+#display {
+    max-width: 390px;
 }
