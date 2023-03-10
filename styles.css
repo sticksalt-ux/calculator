@@ -8,18 +8,19 @@
 }
 
 body {
-    background-color: #D1D1D1;
+    background-color: #4C4C4C;
+    background-image: linear-gradient(to top, #202020, #161616);
 }
 
 .m-container {
     width: 450px;
     height: 600px;
-    border: 2px solid white;
+    border: 2px solid #85C7F2;
     display: grid;
     grid-template-rows: 2fr 5fr;
     background-color: #4C4C4C;
     margin: 100px auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    box-shadow: rgba(116, 116, 247, 0.1) 0px 7px 0px, rgba(107, 107, 231, 0.2) 0px 8px 24px, rgba(92, 92, 240, 0.2) 0px 16px 48px;
 }
 
 .output-container {
@@ -31,7 +32,7 @@ body {
     justify-content: right;
     font-size: 60px;
     letter-spacing: 1px;
-    color: white;
+    color: #85C7F2;
 }
 
 .b-container {
@@ -51,6 +52,7 @@ button {
     height: auto;
     font-size: 20px;
     color: white;
+    transition: 0.5s;
 }
 
 .operators {
@@ -72,4 +74,10 @@ button {
 
 #display {
     max-width: 390px;
+}
+
+button:hover {
+    background-color: #85C7F2;
+    scale: 1.05;
+    box-shadow: rgba(162, 188, 214, 0.329) 0px 8px 24px;
 }
